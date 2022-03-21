@@ -34,11 +34,11 @@ To understand how the sensors carried on satellites and aircraft work, we need s
 
 We are all familiar with the part of this spectrum that is visible light. We're used to the idea of blue skies and green trees. But electomagnetic radiation comes in many more wavelengths than just the 380 to 740 nanometers that bound what the human eye can typically see. Sensors are built to take advantage of a wide area of the electromagnetic spectrum to take advantage of how these different levels of radiation interact with different materials on the Earth's surface. Different wavelengths go through the atompsphere with varying success, so you can see in the diagram there are certain areas of electromagnetice radiation where it's beneficial to focus remote sensing instruments.
 
-Landsat 8 & 9 carry passive sensors that work in different wavelengths or bands covering the visible sprectrum and into the infrared. Let's dig into Landsat 8 & 9 more specifically...
+Landsat 8 & 9 carry passive sensors that work in different wavelengths or bands covering the visible spectrum and into the infrared. Let's dig into Landsat 8 & 9 more specifically...
 
 ## <a name="landsat"></a> The Landsat 8 & 9 satellites
 
-Exciting news is Landsat 9 came on line and started distribtuing data in February 2022!!!
+Exciting news is Landsat 9 came on line and started distributing data in February 2022!!!
 
 Landsat 9 sensors are very similar to Landsat 8, but improved in data quality. 
 
