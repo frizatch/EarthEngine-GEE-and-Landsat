@@ -57,9 +57,8 @@ Here are the bands on both satellites:
 
 The electromagnetic spectrum
 
-<p cnter
-   img src
-that
+<p align="center">
+<img src="images/Spektrum_eng_h600.png" width="200"/>
 </p>
 
 Image source: [seos-project.eu](https://www.seos-project.eu/remotesensing/remotesensing-c00-p01.html) / Albertz 2007 with modifications
