@@ -45,15 +45,15 @@ Exciting news is Landsat 9 came on line and started distribtuing data in Februar
 Landsat 9 sensors are very similar to Landsat 8, but improved in data quality. 
 
 Here are the bands on both satellites:
-Band 1 Coastal Aerosol (0.43 - 0.45 µm) 30 m
-Band 2 Blue (0.450 - 0.51 µm) 30 m
-Band 3 Green (0.53 - 0.59 µm) 30 m
-Band 4 Red (0.64 - 0.67 µm) 30 m
-Band 5 Near-Infrared (0.85 - 0.88 µm) 30 m
-Band 6 SWIR 1(1.57 - 1.65 µm) 30 m
-Band 7 SWIR 2 (2.11 - 2.29 µm) 30 m
-Band 8 Panchromatic (PAN) (0.50 - 0.68 µm) 15 m
-Band 9 Cirrus (1.36 - 1.38 µm) 30 m
+- Band 1 Coastal Aerosol (0.43 - 0.45 µm) 30 m
+- Band 2 Blue (0.450 - 0.51 µm) 30 m
+- Band 3 Green (0.53 - 0.59 µm) 30 m
+- Band 4 Red (0.64 - 0.67 µm) 30 m
+- Band 5 Near-Infrared (0.85 - 0.88 µm) 30 m
+- Band 6 SWIR 1(1.57 - 1.65 µm) 30 m
+- Band 7 SWIR 2 (2.11 - 2.29 µm) 30 m
+- Band 8 Panchromatic (PAN) (0.50 - 0.68 µm) 15 m
+- Band 9 Cirrus (1.36 - 1.38 µm) 30 m
 
 The electromagnetic spectrum
 
@@ -61,6 +61,7 @@ The electromagnetic spectrum
    img src
 that
 </p>
+
 Image source: [seos-project.eu](https://www.seos-project.eu/remotesensing/remotesensing-c00-p01.html) / Albertz 2007 with modifications
 
 ## <a name="streamlit"></a> Exploring Landsat data
