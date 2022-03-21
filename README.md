@@ -1,35 +1,24 @@
 # Exploring Landsat data in Google Earth Engine
-Geoscience workshop for exploring Landsat data with python
+Geoscience workshop for exploring Landsat data via GEE with python
 
 ## Workshop Resources
  - Google Earth Engine (GEE) - create an account for non-commercial purposes here: [GoogleEarthEngine](https://earthengine.google.com/)
  - Data - Supplied to you on the GEE site!
 
 ## Workshop Goals
-By the end of this workshop, you will:
-- Have an understanding of Landsat data
-- Know how to something something
+By the end of this workshop, you will be able to:
+- be familiar with data from the Landsat 8/9 satellites
+- create a python environment for visualizinga and analyzing geospatial data
+- leverage Google Earth Engine for working with geospatial data
 
 ## Outline
-- What is GEE
-- Landsat 9! woo!
-- streamlit - explore landsat
-- geemap - python library
+- [What is GEE?](#gee)
+- [Landsat 8/9 overview](#landsat)
+- [Exploring Landsat data](#streamlit)
+- [Python library for GEE](#geemap)
 - Anaconda conda miniconda
-- Doing stuff
-
-## Outline
-- [Why Tableau?](#why-tableau)
-- [Tableau Terms - a Glossary](#glossary)
-- [Getting Started](#start)
-- [Connecting to Data](#connect-data)
-- [Data classification](#data-class)
-- [Creating visualizations](#visualize)
-- [Making a Dashboard](#dashboard)
-- [Connecting to PDF Data](#pdf-data)
+- Jupyter notebook for GEE and Landsat
 
 
-## <a name="why-tableau"></a>  Why use Tableau?
+## <a name="gee"></a>  What is Google Earth Engine?
 
-Tableau's main purpose is to create a platform for visual data exploration. Here are some of its strengths:
--
