@@ -58,10 +58,10 @@ Here are the bands on both satellites:
 The electromagnetic spectrum
 
 <p align="center">
-<img src="images/Spektrum_eng_h600.png" width="200"/>
+<img src="images/Spektrum_eng_h600.png" width="800"/>
 </p>
 
-Image source: [seos-project.eu](https://www.seos-project.eu/remotesensing/remotesensing-c00-p01.html) / Albertz 2007 with modifications
+*Image source: [seos-project.eu](https://www.seos-project.eu/remotesensing/remotesensing-c00-p01.html) / Albertz 2007 with modifications*
 
 ## <a name="streamlit"></a> Exploring Landsat data
 
