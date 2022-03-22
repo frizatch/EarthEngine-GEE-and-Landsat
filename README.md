@@ -17,7 +17,7 @@ By the end of this workshop, you will be able to:
 - [Landsat 8 & 9 overview](#landsat)
 - [Exploring Landsat data](#streamlit)
 - [What is GEE?](#gee)
-- [Python library for GEE](#geemap)
+- [geemap - a python package for GEE](#geemap)
 - Anaconda conda miniconda
 - Jupyter notebooks for GEE and Landsat
 
@@ -57,7 +57,7 @@ Here are the bands on both satellites:
 These bands can be used in different combinations to accentuate different information on the surface of the earth. To get some orientation about how to use these bands for different research purposes, see the [USGS FAQ page](https://www.usgs.gov/faqs/what-are-best-landsat-spectral-bands-use-my-research) about this topic. For a quick look at some common combinations, note the following natural color image, color infrared image for vegetative growth, and false color image for moisture analysis.
 
 <p align="center">
-<img src="lansatbandcombos.png" width="800"/>
+<img src="images/lansatbandcombos.png" width="800"/>
 </p>
 
 ## <a name="streamlit"></a> Exploring Landsat data
@@ -129,8 +129,8 @@ Using Navigator, make sure you're in the right env and click on the jupyter note
 
 The first time you try to use the geemap package you'll be asked to authorize your Google Earth Engine account via your gmail. You'll be asked which Google account you want to connect to GEE and then will receive an authorization code to enter into the notebook. You'll see a note saying, "Successfully saved authorization token" which means you won't have to do this again on your machine.
 
-<p align="center">
-<img src="images/GEEauthorize.png" width="800"/>
+<p>
+<img src="images/GEEauthorize.png" width="600"/>
 </p>
  
 #### geemap tools
@@ -140,7 +140,7 @@ Many of the steps you can do with code can also be done with built-in geemap too
 You can access them from the small wrench icon in the upper right of your map:
 
 <p>
-<img src="images/geemaptools.png" width="300"/>
+<img src="images/geemaptools.png" width="150"/>
 </p>
 
 get data
