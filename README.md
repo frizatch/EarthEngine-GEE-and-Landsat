@@ -161,7 +161,7 @@ Now, within this environment, you can switch from "Installed" to "Not Installed"
 
 If you're not familiar with notebooks, they are files that have interactive code and text. You can download your own copy and change it however you'd like to explore the processes built into it.
 
-The notebook we'll use can be downloaded from this [Dropbox folder](https://www.dropbox.com/s/c8ag0mbbyy2ttrd/geeandlandsat.ipynb?dl=0), same as at the top of this workshop.
+The notebook we'll use can be downloaded from this [Dropbox folder](https://www.dropbox.com/s/c8ag0mbbyy2ttrd/geeandlandsat.ipynb?dl=0), same as at the top of this workshop. You may be asked to sign into Dropbox, but that isn't necessary. Close that message and click on the download link.
 
 ### Open the notebook
 
