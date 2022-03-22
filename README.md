@@ -2,7 +2,7 @@
 
 Geoscience workshop for exploring Landsat data via GEE with python
 
-*Kudos to Qiusheng Wu (Twitter @giswqs) who is responsible for most of this work!*
+*Kudos to Qiusheng Wu (Twitter @giswqs) who is responsible for nearly all of this work!*
 
 ## Workshop Resources
  - Google Earth Engine (GEE) - create an account for non-commercial purposes here: [GoogleEarthEngine](https://earthengine.google.com/)
