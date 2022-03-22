@@ -133,6 +133,15 @@ The first time you try to use the geemap package you'll be asked to authorize yo
 <img src="images/GEEauthorize.png" width="800"/>
 </p>
  
+#### geemap tools
+
+Many of the steps you can do with code can also be done with built-in geemap tools in the interactive map!
+
+You can access them from the small wrench icon in the upper right of your map:
+
+<p>
+<img src="images/geemaptools.png" width="300"/>
+</p>
 
 get data
 
