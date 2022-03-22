@@ -22,8 +22,9 @@ By the end of this workshop, you will be able to:
 - [Exploring Landsat data](#streamlit)
 - [What is GEE?](#gee)
 - [geemap - a python package for GEE](#geemap)
-- Anaconda conda miniconda
-- Jupyter notebooks for GEE and Landsat
+- [Anaconda python](#anaconda)
+- [Jupyter notebook for GEE and Landsat](#notebook)
+- [Resources](#resource)
 
 ## <a name="remotesensing"></a> Remote Sensing: Geoscience with Satellites!
 
@@ -141,13 +142,13 @@ If you already have Anaconda on your machine, you can do the same steps as above
 
 First, select the Environments tab on the left, then create a new environment:
 <p>
-<img src="images/createenv.png" width="600"/>
+<img src="images/createenv.png" width="300"/>
 </p>
 
 To add the geemap package, we need to make sure you have the conda-forge channel added:
 
 <p>
-<img src="images/condaforge.png" width="600"/>
+<img src="images/condaforge.png" width="300"/>
 </p>
 
 Now, within this environment, you can switch from "Installed" to "Not Installed" and search for the package you'd like to add:
@@ -156,7 +157,7 @@ Now, within this environment, you can switch from "Installed" to "Not Installed"
 </p>
 
 
-## <a name="jupyter"></a>  Notebook Exercises
+## <a name="notebook"></a> Jupyter Notebook Exercises
 
 If you're not familiar with notebooks, they are files that have interactive code and text. You can download your own copy and change it however you'd like to explore the processes built into it.
 
@@ -200,7 +201,7 @@ You can access them from the small wrench icon in the upper right of your map:
 <img src="images/geemaptools.png" width="150"/>
 </p>
 
-## Resources
+## <a name="resource"></a> Resources
 
 For further tutorials and amazingness, dig into  Qiusheng's geemap site. In particular, these two pages will give you hours more of learning:
 - [geemap YouTube channel](https://www.youtube.com/playlist?list=PLAxJ4-o7ZoPccOFv1dCwvGI6TYnirRTg3)
