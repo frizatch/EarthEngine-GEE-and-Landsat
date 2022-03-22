@@ -54,7 +54,11 @@ Here are the bands on both satellites:
 - Band 8 Panchromatic (PAN) (0.50 - 0.68 µm) 15 m
 - Band 9 Cirrus (1.36 - 1.38 µm) 30 m
 
+These bands can be used in different combinations to accentuate different information on the surface of the earth. To get some orientation about how to use these bands for different research purposes, see the [USGS FAQ page](https://www.usgs.gov/faqs/what-are-best-landsat-spectral-bands-use-my-research) about this topic. For a quick look at some common combinations, note the following natural color image, color infrared image for vegetative growth, and false color image for moisture analysis.
 
+<p align="center">
+<img src="lansatbandcombos.png" width="800"/>
+</p>
 
 ## <a name="streamlit"></a> Exploring Landsat data
 
