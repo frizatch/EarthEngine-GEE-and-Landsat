@@ -142,13 +142,13 @@ If you already have Anaconda on your machine, you can do the same steps as above
 
 First, select the Environments tab on the left, then create a new environment:
 <p>
-<img src="images/createenv.png" width="300"/>
+<img src="images/createenv.png" width="400"/>
 </p>
 
 To add the geemap package, we need to make sure you have the conda-forge channel added:
 
 <p>
-<img src="images/condaforge.png" width="300"/>
+<img src="images/condaforge.png" width="500"/>
 </p>
 
 Now, within this environment, you can switch from "Installed" to "Not Installed" and search for the package you'd like to add:
