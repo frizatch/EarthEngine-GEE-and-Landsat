@@ -1,16 +1,20 @@
 # Exploring Landsat data in Google Earth Engine
+
 Geoscience workshop for exploring Landsat data via GEE with python
+
+*Kudos to Qiusheng Wu (Twitter @giswqs) who is responsible for most of this work!*
 
 ## Workshop Resources
  - Google Earth Engine (GEE) - create an account for non-commercial purposes here: [GoogleEarthEngine](https://earthengine.google.com/)
  - [Minconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda/Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/install/)
  - Landsat Data - Supplied to you on the GEE site!
+ - [Jupyter Notebook](https://www.dropbox.com/s/c8ag0mbbyy2ttrd/geeandlandsat.ipynb?dl=0) - download to follow some exercises!
 
 ## Workshop Goals
 By the end of this workshop, you will be able to:
 - understand data from the Landsat 8 & 9 satellites
 - create a python environment for geoanalysis
-- leverage Google Earth Engine for visualizing and analyzing geospatial information
+- use geemap to connect to Google Earth Engine for geospatial visualization and analysis
 
 ## Outline
 - [Remoting Sensing](#remotesensing)
@@ -57,12 +61,28 @@ Here are the bands on both satellites:
 These bands can be used in different combinations to accentuate different information on the surface of the earth. To get some orientation about how to use these bands for different research purposes, see the [USGS FAQ page](https://www.usgs.gov/faqs/what-are-best-landsat-spectral-bands-use-my-research) about this topic. For a quick look at some common combinations, note the following natural color image, color infrared image for vegetative growth, and false color image for moisture analysis.
 
 <p align="center">
-<img src="images/lansatbandcombos.png" width="800"/>
+<img src="images/landsatbandcombos.png" width="800"/>
 </p>
 
 ## <a name="streamlit"></a> Exploring Landsat data
 
-There is an excellent webapp available for exploring Landsat data and how different combinations of these bands might look transfered into Red Blue and Green bands in an image.
+There is an excellent webapp available for exploring Landsat data and how different combinations of these bands might look transfered into Red Blue and Green bands in an image. This [Streamlit for geospatial](https://streamlit.geemap.org/) app was also created by Qiusheng Wu.
+
+Open the Stearmlit for Geospatial Applications page, then explore some areas on earth with the following steps:
+
+- On the lefthand side, select "Create Timeplapse"
+- Zoom in on the map to an area you think would be interesting to explore over time with landsat data
+- Using the drawing tools, create a bounding box around your area of interest
+- Click the export button
+- A GeoJSON file will automatically download to your computer
+- Drag and drop this file back into area above the map, or use the browse function there to select it (or any other bounding box you may have!)
+- Fill out the parameters on the right side for creating your timelapse
+- If you are using the Landsat satellites, refer to the bands above to pick your sensor combinations to show in the RGB channels
+- Click submit!
+
+After computing is finished, you'll see a preview of what you picked. You'll have the option to download the GIF or mp4 that is produced based on your choices.
+
+This is a nice tool for exploring and making the data quickly visible, but now let's pull it into a platform where we can do custom analysis on it!
 
 ## <a name="gee"></a>  What is Google Earth Engine?
 
@@ -70,7 +90,7 @@ It's a planetary-scale platform for doing data science. Google Earth Engine allo
 
 What's on offer:
 
-![data computation A P I applications graphic](imagesEngine/EngineOfferings.JPG)
+![data computation A P I applications graphic](images/earthenginedesc.png)
 
 The [Google Earth Engine Homepage](https://developers.google.com/earth-engine) is where you can launch into this adventure and find all kinds of resources, but this tutorial, based on the excellent work by Qiusheng Wu (Twitter: @giswqs), is a decent place to start if you are more interested in using python over javascript, the default for GEE.
 
