@@ -172,7 +172,7 @@ NOTE: The first time you try to use the geemap package you'll be asked to author
  
 ### geemap tools
 
-Many of the steps you can do with code, as seen in the notebook, can also be done with built-in geemap tools in the interactive map!
+Many of the steps you can do with code, like many of the things we do in the notebook, can also be done with built-in geemap tools in the interactive map!
 
 You can access them from the small wrench icon in the upper right of your map:
 
