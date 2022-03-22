@@ -123,19 +123,37 @@ You'll need either [Minconda](https://docs.conda.io/en/latest/miniconda.html) or
 
 ### Anaconda or miniconda - using the command line
 
- conda create -n geo_env python=3.9
- conda activate geo_env
- conda install geemap -c conda-forge
- conda install jupyter_contrib_nbextensions -c conda-forge
- jupyter contrib nbextension install --user
+Open a terminal window on a mac, or an Anaconda prompt on a PC, then copy the following lines one at a time.
 
-The process of installing the geemap package will take some time
+Here, you are creating a python environment in which to use the package geemap, available from the conda-forge channel. The `conda` command helps you organize all the dependencies of your packages within this environment.
+
+ `conda create -n geo_env python=3.9`
+ `conda activate geo_env`
+ `conda install geemap -c conda-forge`
+ `conda install jupyter_contrib_nbextensions -c conda-forge`
+ `jupyter contrib nbextension install --user`
+
+The process of installing the geemap package will take some time!
 
 ### Andaconda Navigator - The GUI option
 
 If you already have Anaconda on your machine, you can do the same steps as above, or you can use the GUI to build your environment and install geemap.
 
+First, select the Environments tab on the left, then create a new environment:
+<p>
+<img src="images/createenv.png" width="600"/>
+</p>
 
+To add the geemap package, we need to make sure you have the conda-forge channel added:
+
+<p>
+<img src="images/condaforge.png" width="600"/>
+</p>
+
+Now, within this environment, you can switch from "Installed" to "Not Installed" and search for the package you'd like to add:
+<p>
+<img src="images/searchgeemap.png" width="600"/>
+</p>
 
 
 ## <a name="jupyter"></a>  Notebook Exercises
@@ -162,12 +180,14 @@ If you're using Navigator:
 
 ### Using the Notebook
 
-The notebook is comprised of cells you can run one at a time (or all at once, BUT that's not the point of a notebook). We'll go through this notebook together!
+The notebook is comprised of cells you can run one at a time (or all at once, BUT that's not the point of a notebook).
+
+We'll go through this notebook together!
 
 NOTE: The first time you try to use the geemap package you'll be asked to authorize your Google Earth Engine account via your gmail. You'll be asked which Google account you want to connect to GEE and then will receive an authorization code to enter into the notebook. You'll see a note saying, "Successfully saved authorization token" which means you won't have to do this again on your machine.
 
 <p>
-<img src="images/GEEauthorize.png" width="600"/>
+<img src="images/geeauthorize.png" width="600"/>
 </p>
  
 ### geemap tools
