@@ -100,9 +100,9 @@ NOTE: *This tutorial is in the context of nonprofit, research, and education use
 
 A good place for more orientation: https://earthengine.google.com/faq/
 
-And once you sign up, you'll have access to the code editor shown above where you can follow along with the excellent [Javascript Starting Guide](https://developers.google.com/earth-engine/guides/getstarted). (Python installs are an option as well, but the guide examples are mainly Javascript.) 
+And once you sign up, you'll have access to the code editor shown above where you can follow along with the excellent [Javascript Starting Guide](https://developers.google.com/earth-engine/guides/getstarted). Python is what we'll work with, but the guide examples are mainly Javascript. THIS is why geemap is an important python package.
 
-## <a name="geemap"></a> The geemap python library
+## <a name="geemap"></a> The geemap python package
 
 Qiusheng Wu built the python package *geemap* that creates a visual interface for GEE when using python - something that was lacking until *geemap* came along. There are many MANY resources at [geemap.org](https://geemap.org/) if you want to dig into more detailed tutorials on Qiusheng's YouTube channel after this brief foray into GEE and Landsat data.
 
@@ -138,24 +138,41 @@ If you already have Anaconda on your machine, you can do the same steps as above
 
 
 
-## <a name="jupyter"></a>  Notebooks for playing with data
+## <a name="jupyter"></a>  Notebook Exercises
 
-opening a notebook
+If you're not familiar with notebooks, they are files that have interactive code and text. You can download your own copy and change it however you'd like to explore the processes built into it.
 
-cd to directory where you downloaded the .ipynb file
-type jupyter notebook to get it to open in your browser
+The notebook we'll use can be downloaded from this [Dropbox folder](https://www.dropbox.com/s/c8ag0mbbyy2ttrd/geeandlandsat.ipynb?dl=0), same as at the top of this workshop.
+
+### Open the notebook
+
+If you're using command line:
+- verify you are still in your activated python environment that includes geemap
+- cd to directory where you downloaded the .ipynb file
+- type `jupyter notebook` to open it in your browser
+- open your copy of the geeandlandsat.ipynb file by clicking on it
+
 OR
-Using Navigator, make sure you're in the right env and click on the jupyter notebook icon
 
-The first time you try to use the geemap package you'll be asked to authorize your Google Earth Engine account via your gmail. You'll be asked which Google account you want to connect to GEE and then will receive an authorization code to enter into the notebook. You'll see a note saying, "Successfully saved authorization token" which means you won't have to do this again on your machine.
+If you're using Navigator:
+- make sure you're in the right env and
+- click on the jupyter notebook icon to launch it in your browswer
+- navigate to your copy of the geeandlandsat.ipynb file
+- click on the file.
+
+### Using the Notebook
+
+The notebook is comprised of cells you can run one at a time (or all at once, BUT that's not the point of a notebook). We'll go through this notebook together!
+
+NOTE: The first time you try to use the geemap package you'll be asked to authorize your Google Earth Engine account via your gmail. You'll be asked which Google account you want to connect to GEE and then will receive an authorization code to enter into the notebook. You'll see a note saying, "Successfully saved authorization token" which means you won't have to do this again on your machine.
 
 <p>
 <img src="images/GEEauthorize.png" width="600"/>
 </p>
  
-#### geemap tools
+### geemap tools
 
-Many of the steps you can do with code can also be done with built-in geemap tools in the interactive map!
+Many of the steps you can do with code, as seen in the notebook, can also be done with built-in geemap tools in the interactive map!
 
 You can access them from the small wrench icon in the upper right of your map:
 
@@ -163,8 +180,9 @@ You can access them from the small wrench icon in the upper right of your map:
 <img src="images/geemaptools.png" width="150"/>
 </p>
 
-get data
+## Resources
 
-link to a lot of content from Qiusheng
+For further tutorials and amazingness, dig into  Qiusheng's geemap site. In particular, these two pages will give you hours more of learning:
+- [geemap YouTube channel](https://www.youtube.com/playlist?list=PLAxJ4-o7ZoPccOFv1dCwvGI6TYnirRTg3)
+- [geemap course notebooks](https://courses.geemap.org/)
 
-Voila!
