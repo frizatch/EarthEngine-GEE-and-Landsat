@@ -46,9 +46,11 @@ Landsat 8 & 9 carry passive sensors that work in different wavelengths or bands 
 
 Exciting news is Landsat 9 launched in September 2021 and the USGS started distributing data February 10, 2022! Here's the [Landsat 9 data release announcement](https://www.usgs.gov/news/technical-announcement/usgs-opens-door-landsat-9-data). This data has already been made available in Google Earth Engine as well as direct download from the USGS's data portal [Earth Explorer](https://earthexplorer.usgs.gov/).
 
-Landsat 9 sensors are very similar to Landsat 8, but improved in data quality. 
+Landsat 9 sensors are very similar to Landsat 8, but improved in data quality (shift from 12 bit to 14 bit). With the higher radiometric resolution, Landsat 9 can differentiate 16,384 shades of a given wavelength!
 
-Here are the bands on both satellites:
+Here are the bands on both satellites.
+
+OLI (Operational Land Imager):
 - Band 1 Coastal Aerosol (0.43 - 0.45 µm) 30 m
 - Band 2 Blue (0.450 - 0.51 µm) 30 m
 - Band 3 Green (0.53 - 0.59 µm) 30 m
@@ -58,6 +60,10 @@ Here are the bands on both satellites:
 - Band 7 SWIR 2 (2.11 - 2.29 µm) 30 m
 - Band 8 Panchromatic (PAN) (0.50 - 0.68 µm) 15 m
 - Band 9 Cirrus (1.36 - 1.38 µm) 30 m
+
+TIRS (Thermal Infrared Sensor):
+- Band 10 TIRS 1 (10.6 - 11.19 µm) 100m
+- Band 11 TIRS 2 (11.5 - 12.51 µm) 100m
 
 These bands can be used in different combinations to accentuate different information on the surface of the earth. To get some orientation about how to use these bands for different research purposes, see the [USGS FAQ page](https://www.usgs.gov/faqs/what-are-best-landsat-spectral-bands-use-my-research) about this topic. For a quick look at some common combinations, note the following natural color image, color infrared image for vegetative growth, and false color image for moisture analysis.
 
