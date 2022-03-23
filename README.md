@@ -124,15 +124,17 @@ You'll need either [Minconda](https://docs.conda.io/en/latest/miniconda.html) or
 
 ### Anaconda or miniconda - using the command line
 
-Open a terminal window on a mac, or an Anaconda prompt on a PC, then copy the following lines one at a time.
+Open a terminal window on a mac, or an Anaconda prompt on a PC, then copy and paste the following lines one at a time.
 
+ ```
+ conda create -n geo_env python=3.9
+ conda activate geo_env
+ conda install geemap -c conda-forge
+ conda install jupyter_contrib_nbextensions -c conda-forge
+ jupyter contrib nbextension install --user
+ ```
+ 
 Here, you are creating a python environment in which to use the package geemap, available from the conda-forge channel. The `conda` command helps you organize all the dependencies of your packages within this environment.
-
- `conda create -n geo_env python=3.9`
- `conda activate geo_env`
- `conda install geemap -c conda-forge`
- `conda install jupyter_contrib_nbextensions -c conda-forge`
- `jupyter contrib nbextension install --user`
 
 The process of installing the geemap package will take some time!
 
